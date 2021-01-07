@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genius - O jogo de memória</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Genius Game</h1>
+
+    <div class="pointsContener">
+        <div class="points">
+            <h2>Pontuação</h2>
+            <p>0</p>
+        </div>
+
+        <div class="points">
+            <h2>Melhor Pontuação</h2>
+            <p>99999</p>
+        </div>
+    </div>
+
+    <div class="mainGame">
+        <div class="genius">
+            <div class="green"></div>
+            <div class="yellow"></div>
+            <div class="red"></div>
+            <div class="blue"></div>
+        </div>
+        <p class="missed invisible">You missed! <br><br> <('O-O)> <br> Whaaat?<br>HOW?!</p>
+    </div>
+
+    <p class="ready invisible">Ready?</p>
+
+    <button class="start" onclick="start();">Start</button>
+
+    <button class="restart">Restart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
